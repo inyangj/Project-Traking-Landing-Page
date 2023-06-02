@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 34px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+li a:hover{
+    color: rgb(148, 164, 2);
+}
+
+.Start-btn{
+    background-color: rgba(219, 243, 1, 1);
+    padding: 14px 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+header{
+    background-image: url("./images/BGmain.png");
+    background-size: cover;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.main-head{
+    width: 749px;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.head-txt{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn-div{
+    margin: 26px;
+    display: flex;
+    gap: 15px;
+}
+
+.Demo-btn{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 14px 20px;
+    border: 1px solid rgba(219, 243, 1, 1);
+    border-radius: 10px;
+}
+
+.partner-sec{
+    display: flex;
+    justify-content: space-evenly;
+    height: 422px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.mid-txt{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-sec{
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid rgba(167, 161, 161, 0.48);
+    border-right: 1px solid rgba(167, 161, 161, 0.48);
+    gap: 20px;
+    padding: 0px 54px 85px ;
+    text-align: center;
+}
+
+.gap{
+    border-bottom: none;
+    padding-top: 54px;
+}
+
+.grid{
+    margin-bottom: 26px;
+}
+
+.sec-txt{
+    width: 330px;
+}
+
+.project-team-txt{
+    text-align: center;
+    font-size: 24px;
+    margin: 90px auto;
+    width: 900px;
+}
+
+.project-team-head{
+    display: block;
+    margin: 1px auto;
+    position: relative;
+}
+
+.img-box{
+    position: relative;
+}
+
+.project-team1{
+    position: absolute;
+    top: 64px;
+    left: 112px;
+}
+.project-team2{
+    position: absolute;
+    top: 64px;
+    left: 335px;
+}
+.project-team3{
+    position: absolute;
+    top: 0px;
+    left: 582px;
+    z-index: 2;
+}
+.project-team4{
+    position: absolute;
+    top: 39px;
+    left: 861px;
+}
+.project-team5{
+    position: absolute;
+    top: 21px;
+    left: 1114px;
+}
+
+.review-text{
+    position: relative;
+    top: 500px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 173px;
+}
+
+.position-clear{
+    position: relative;
+    top: 500px;
+}
+
+.review-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-review{
+    width: 346px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.review-img{
+    display: flex;
+    gap: 40px;
+}
+
+.box-view{
+    padding-top: 20px;
+}
+
+.main-review{
+    padding: 28px 0px 58px;
+}
+
+.name{
+    display: flex;
+    gap: 14px;
+    font-weight: 600;
+}
+
+.box-span{
+    font-weight: 500;
+    color: rgba(100, 116, 139, 1);
+}
+
+aside{
+    display: flex;
+    justify-content: space-around;
+    margin: 239px 0px 102px;
+}
+
+.side-txt{
+    width: 550px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.side1{
+    background-color: rgba(72, 90, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    width: 318px;
+    display: grid;
+    gap: 20px;
+    border-radius: 12px;
+    padding-top: 31px;
+    padding-bottom: 47px;
+}
+
+side-head1{
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.next-pack1, .next-pack3{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(219, 234, 254, 1);
+}
+
+.next-pack2{
+    font-weight: 700;
+    font-size: 48px;
+    border-bottom: 1px solid rgba(229, 234, 241, 1);
+    padding-bottom: 19px;
+}
+
+.list-btn{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(72, 90, 255, 1);
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+
+.package{
+    display: grid;
+    gap: 15px;
+}
+
+.side2{
+    color: rgba(15, 23, 42, 1);
+    text-align: center;
+    width: 318px;
+    display: grid;
+    gap: 20px;
+    border: 1px solid rgba(229, 234, 241, 1);
+    border-radius: 12px;
+    padding-top: 31px;
+    padding-bottom: 47px;
+}
+
+.next-pack4{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(75, 82, 98, 1);
+}
+
+.list-btn1{
+    background-color: rgba(72, 90, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+footer{
+    background-color: rgba(17, 13, 51, 1);
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 237px;
+}
+
+.cab>li>a{
+    color: rgba(244, 244, 245, 1);
+}
+
+.dab{
+    color: rgba(203, 213, 225, 1);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 39px 0px 39px;
+    text-align: center;
+}
+
+.hr{
+    border: 1px solid rgba(70, 76, 86, 1);
+    margin: 0px 75px;
+}

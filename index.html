@@ -11,28 +11,63 @@
     <title>Track Landing Page</title>
 </head>
 <body>
-    <nav>
-        <div class="img-icon">
-            <img src="./images/Logo.png" alt="logo">
+
+    <header class="headers">
+        <div class="logo-icon">
+            <div class="logo"><img src="./images/Logo.png" alt="logo"></div>
+    
+            <div onclick="openNav()" id="menu" class="hamburger-menu">
+                <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+                d="M3 7H21"
+                stroke="rgba(219, 243, 1, 1)"
+                stroke-width="2.5"
+                stroke-linecap="round"
+            />
+            <path
+                d="M3 12H21"
+                stroke="rgba(219, 243, 1, 1)"
+                stroke-width="2.5"
+                stroke-linecap="round"
+            />
+            <path
+                d="M3 17H21"
+                stroke="rgba(219, 243, 1, 1)"
+                stroke-width="2.5"
+                stroke-linecap="round"
+            />
+            </svg>
+            </div>
         </div>
-        <ul class="nav-list">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Pricing</a></li>
-        </ul>
-        <ul class="login">
+    
+        <nav id="nav" class="navigation">
+            <ul class="nav-links-wrap">
+                <li class="nav-link"><a href="#home">Features</a></li>
+                <li class="shade nav-link"><a href="#">Our Team</a></li>
+                <li class="shade nav-link"><a href="#">Pricing</a></li>
+            </ul>
+            
+        </nav>
+        <ul class="login Started">
             <li><a href="#">Sign in</a></li>
             <li><button class="Start-btn">Get Started</button></li>
         </ul>
-    </nav>
-    <header>
+    </header>
+
+    <section class="sec-header">
         <h1 class="main-head">Manage your projects and collaborate with teams</h1>
         <p class="head-txt">A tool for visualising, organising and tracking all the work you do</p>
         <div class="btn-div">
         <button class="Start-btn">Get Started</button>
         <button class="Demo-btn">Book Demo</button>
         </div>
-    </header>
+    </section>
 
     <section>
         <ul class="partner-sec">
@@ -62,18 +97,18 @@
             </p>
         </div>
 
-        <div class="product-sec">
+        <div class="product-sec ga">
             <img src="./images/interface.png" alt="interface" class="grid">
             <h3 class="sec-head">Interface</h3>
             <p class="sec-txt">
                 Auto backup smooth interface ensures you complete your scheduled tasks
             </p>
         </div>
-        <div class="product-sec gap">
+        <div class="product-sec gap pa">
             <img src="./images/Backup.png" alt="Backup" class="grid">
             <h3 class="sec-head">Backup</h3>
             <p class="sec-txt">
-                CEnsure no data is lost with our auto AI powered backup systems
+                Censure no data is lost with our auto AI powered backup systems
             </p>
         </div>
         <div class="product-sec gap">
@@ -123,7 +158,7 @@
             <img src="./images/BG-1.png" alt="Devon Lane">
             <div class="box-view">
                 <img src="./images/Review.png" alt="stars">
-                <p class="main-review">No more switching between taks .Time management has become efficient for my team</p>
+                <p class="main-review">No more switching between tasks. Time management has become efficient for my team</p>
                 <div class="name">
                     <p>Devon Lane</p>
                     <p class="box-span">DLDesign.co</p>
@@ -181,6 +216,6 @@
         <p class="dab">Made in Figma by @karanhamav</p>
     </footer>
 </section>
-
+<script src="./nav.js"></script>
 </body>
 </html>

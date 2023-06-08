@@ -447,8 +447,9 @@ footer{
     }
 
     .side-txt{
+        align-self: center;
         text-align: center;
-        width: 100%;
+        width: 650px;
     }
 
 }

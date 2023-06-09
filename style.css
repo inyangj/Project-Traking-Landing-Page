@@ -146,10 +146,11 @@ main{
     display: block;
     margin: 1px auto;
     position: relative;
+    left: 380px;
 }
 
 .img-box{
-    position: relative;
+    position: absolute;
 }
 
 .project-team1{
@@ -186,7 +187,7 @@ main{
 
 .review-text{
     position: relative;
-    top: 400px;
+    top: 500px;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
@@ -195,7 +196,7 @@ main{
 
 .position-clear{
     position: relative;
-    top: 350px;
+    top: 450px;
 }
 
 .review-box{
@@ -364,36 +365,62 @@ footer{
         gap: 50px;
     }
 
+    .project-team-head{
+        display: block;
+        margin: 1px auto;
+        position: absolute;
+        left: 565px;
+    }
+    
+    .img-box{
+        position: absolute;
+        margin: 2px auto;
+    }
+
     .project-team1{
         width: 251px;
         position: absolute;
         top: 194px;
-        left: 180px;
+        left: 110px;
     }
     .project-team2{
         width: 282px;
         position: absolute;
         top: 194px;
-        left: 380px;
+        left: 310px;
     }
     .project-team3{
         width: 331px;
         position: absolute;
         top: 130px;
-        left: 602px;
+        left: 532px;
         z-index: 2;
     }
     .project-team4{
         width: 300px;
         position: absolute;
         top: 169px;
-        left: 849px;
+        left: 789px;
     }
     .project-team5{
         width: 293px;
         position: absolute;
         top: 161px;
-        left: 1060px;
+        left: 1010px;
+    }
+
+    .review-text{
+        position: relative;
+        top: 650px;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 173px;
+    }
+
+    .position-clear{
+        position: relative;
+        top: 600px;
     }
 
     .package-contain{

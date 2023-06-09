@@ -12,7 +12,7 @@ body{
 }
 
 img{
-    display: block;
+    display: inline-block;
 }
 
 .headers{
@@ -138,7 +138,7 @@ main{
 .project-team-txt{
     text-align: center;
     font-size: 24px;
-    margin: 90px auto;
+    margin: 150px auto;
     width: 900px;
 }
 
@@ -146,49 +146,62 @@ main{
     display: block;
     margin: 1px auto;
     position: relative;
-    left: 380px;
+    left: 515px;
+    bottom: 167px;
+    /* background-color: brown; */
 }
 
-.img-box{
+
+.img-box {
     position: absolute;
-    margin: 1px 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px auto;
+    width: 100%;
+    /* background-color: red; */
 }
 
 .project-team1{
     width: 200px;
-    position: absolute;
-    top: 194px;
-    left: 35px;
+    position: relative;
+    top: 31px;
+    left: -70px;
+    /* background-color: blue; */
 }
 .project-team2{
-    width: 220px;
-    position: absolute;
-    top: 194px;
-    left: 190px;
+    width: 200px;
+    position: relative;
+    top: 31px;
+    left: -105px;
+    /* background-color: green; */
 }
 .project-team3{
-    width: 300px;
-    position: absolute;
-    top: 130px;
-    left: 362px;
+    width: 250px;
+    position: relative;
+    top: 0px;
+    left: -130px;
     z-index: 2;
+    /* background-color: crimson; */
 }
 .project-team4{
-    width: 235px;
-    position: absolute;
-    top: 169px;
-    left: 599px;
+    width: 205px;
+    position: relative;
+    top: 19px;
+    left: -180px;
+    /* background-color: purple; */
 }
 .project-team5{
-    width: 230px;
-    position: absolute;
-    top: 161px;
-    left: 770px;
+    width: 200px;
+    position: relative;
+    top: 16px;
+    left: -210px;
+    /* background-color: rgb(177, 78, 2); */
 }
 
 .review-text{
     position: relative;
-    top: 500px;
+    top: 400px;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
@@ -197,7 +210,7 @@ main{
 
 .position-clear{
     position: relative;
-    top: 450px;
+    top: 350px;
 }
 
 .review-box{
